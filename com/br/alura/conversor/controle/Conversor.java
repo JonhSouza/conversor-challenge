@@ -11,7 +11,7 @@ import java.net.http.HttpResponse;
 
 public class Conversor {
 
-    private static final String BASE_URL = "https://v6.exchangerate-api.com/v6/17ce5e331cb1136dfcc30e50/pair/";
+    private static final String BASE_URL = "https://v6.exchangerate-api.com/v6/Your API KEY/pair/";
 
     public void iniciarConversao(String moeda1, String moeda2, double valor) throws IOException, InterruptedException {
 
